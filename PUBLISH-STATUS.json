@@ -1,0 +1,13 @@
+{
+  "intended_github_url": "https://github.com/nilsatisnisioptomum/apify-actor-examples",
+  "status": "LOCAL_ONLY_NOT_PUBLISHED",
+  "store": "https://apify.com/chris_elder",
+  "actors_with_examples": [
+    "bulk-file-downloader",
+    "dataset-transformer",
+    "sitemap-url-extractor",
+    "http-request-sender",
+    "broken-link-checker"
+  ],
+  "prepared_at": "2026-10-13"
+}

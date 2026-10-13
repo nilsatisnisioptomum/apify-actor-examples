@@ -1,0 +1,116 @@
+{
+  "input": {
+    "requests": [
+      {
+        "url": "https://httpbin.org/get",
+        "queryParams": {
+          "q": "apify"
+        }
+      },
+      {
+        "url": "https://httpbin.org/post",
+        "method": "POST",
+        "jsonBody": {
+          "hello": "world"
+        },
+        "label": "echo"
+      }
+    ]
+  },
+  "status": "SUCCEEDED",
+  "itemCount": 2,
+  "usageTotalUsd": 0.0001497272397428751,
+  "itemsSample": [
+    {
+      "index": 0,
+      "label": null,
+      "method": "GET",
+      "url": "https://httpbin.org/get?q=apify",
+      "requestHeaders": {},
+      "statusCode": 200,
+      "ok": true,
+      "finalUrl": "https://httpbin.org/get?q=apify",
+      "redirectChain": [],
+      "contentType": "application/json",
+      "responseBytes": 481,
+      "bodyTruncated": false,
+      "body": {
+        "args": {
+          "q": "apify"
+        },
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Accept-Language": "*",
+          "Host": "httpbin.org",
+          "Sec-Fetch-Mode": "cors",
+          "User-Agent": "Mozilla/5.0 (compatible; ApifyHttpRequestSender/1.0; +https://apify.com/chris_elder/http-request-sender)",
+          "X-Amzn-Trace-Id": "Root=1-6ac9f8c4-5d35088152b2c973509a9687"
+        },
+        "origin": "34.239.160.76",
+        "url": "https://httpbin.org/get?q=apify"
+      },
+      "bodyFormat": "json",
+      "durationMs": 42,
+      "responseHeaders": {
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "481",
+        "content-type": "application/json",
+        "date": "Sat, 10 Oct 2026 08:35:16 GMT",
+        "server": "gunicorn/19.9.0"
+      }
+    },
+    {
+      "index": 1,
+      "label": "echo",
+      "method": "POST",
+      "url": "https://httpbin.org/post",
+      "requestHeaders": {
+        "content-type": "application/json"
+      },
+      "statusCode": 200,
+      "ok": true,
+      "finalUrl": "https://httpbin.org/post",
+      "redirectChain": [],
+      "contentType": "application/json",
+      "responseBytes": 630,
+      "bodyTruncated": false,
+      "body": {
+        "args": {},
+        "data": "{\"hello\":\"world\"}",
+        "files": {},
+        "form": {},
+        "headers": {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Accept-Language": "*",
+          "Content-Length": "17",
+          "Content-Type": "application/json",
+          "Host": "httpbin.org",
+          "Sec-Fetch-Mode": "cors",
+          "User-Agent": "Mozilla/5.0 (compatible; ApifyHttpRequestSender/1.0; +https://apify.com/chris_elder/http-request-sender)",
+          "X-Amzn-Trace-Id": "Root=1-6ac9f8c5-725402cc387f59953caa1df9"
+        },
+        "json": {
+          "hello": "world"
+        },
+        "origin": "34.239.160.76",
+        "url": "https://httpbin.org/post"
+      },
+      "bodyFormat": "json",
+      "durationMs": 211,
+      "responseHeaders": {
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "630",
+        "content-type": "application/json",
+        "date": "Sat, 10 Oct 2026 08:35:17 GMT",
+        "server": "gunicorn/19.9.0"
+      }
+    }
+  ],
+  "note": "Trimmed from a real public Apify run for illustration. Re-run the Actor for fresh data."
+}

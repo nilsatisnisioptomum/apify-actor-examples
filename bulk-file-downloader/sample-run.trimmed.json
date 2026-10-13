@@ -1,0 +1,38 @@
+{
+  "input": {
+    "urls": [
+      "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "https://httpbin.org/image/png"
+    ],
+    "createZip": true,
+    "maxFiles": 5
+  },
+  "status": "SUCCEEDED",
+  "itemCount": 2,
+  "usageTotalUsd": 0.00044244852367374636,
+  "itemsSample": [
+    {
+      "index": 0,
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "ok": true,
+      "key": "file-0000-3eba3cf786-dummy.pdf",
+      "fileName": "dummy.pdf",
+      "contentType": "application/pdf; qs=0.001",
+      "bytes": 13264,
+      "statusCode": 200,
+      "finalUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+    },
+    {
+      "index": 1,
+      "url": "https://httpbin.org/image/png",
+      "ok": true,
+      "key": "file-0001-e10e7241ca-png.png",
+      "fileName": "png.png",
+      "contentType": "image/png",
+      "bytes": 8090,
+      "statusCode": 200,
+      "finalUrl": "https://httpbin.org/image/png"
+    }
+  ],
+  "note": "Trimmed from a real public Apify run for illustration. Re-run the Actor for fresh data."
+}

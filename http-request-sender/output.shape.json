@@ -1,0 +1,9 @@
+{
+  "index": 0,
+  "method": "GET",
+  "url": "https://httpbin.org/get?q=apify",
+  "statusCode": 200,
+  "ok": true,
+  "bodyFormat": "json",
+  "durationMs": 42
+}

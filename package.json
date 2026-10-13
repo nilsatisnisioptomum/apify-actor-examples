@@ -1,0 +1,10 @@
+{
+  "name": "apify-actor-examples",
+  "private": true,
+  "description": "Examples for https://apify.com/chris_elder Actors",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "apify-client": "^2.12.0"
+  }
+}

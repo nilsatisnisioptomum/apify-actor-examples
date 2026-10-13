@@ -1,0 +1,18 @@
+{
+  "requests": [
+    {
+      "url": "https://httpbin.org/get",
+      "queryParams": {
+        "q": "apify"
+      }
+    },
+    {
+      "url": "https://httpbin.org/post",
+      "method": "POST",
+      "jsonBody": {
+        "hello": "world"
+      },
+      "label": "echo"
+    }
+  ]
+}

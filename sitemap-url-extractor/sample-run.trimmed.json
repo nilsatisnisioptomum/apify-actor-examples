@@ -1,0 +1,52 @@
+{
+  "input": {
+    "startUrls": [
+      {
+        "url": "https://crawlee.dev"
+      }
+    ],
+    "maxUrls": 100
+  },
+  "status": "SUCCEEDED",
+  "itemCount": 100,
+  "usageTotalUsd": 0.0006568649615132148,
+  "itemsSample": [
+    {
+      "url": "https://crawlee.dev/blog",
+      "lastmod": null,
+      "changefreq": "weekly",
+      "priority": 0.5,
+      "sitemapUrl": "https://crawlee.dev/sitemap.xml",
+      "sitemapDepth": 0,
+      "inputUrl": "https://crawlee.dev",
+      "host": "crawlee.dev",
+      "alternates": [],
+      "imageCount": 0
+    },
+    {
+      "url": "https://crawlee.dev/blog/archive",
+      "lastmod": null,
+      "changefreq": "weekly",
+      "priority": 0.5,
+      "sitemapUrl": "https://crawlee.dev/sitemap.xml",
+      "sitemapDepth": 0,
+      "inputUrl": "https://crawlee.dev",
+      "host": "crawlee.dev",
+      "alternates": [],
+      "imageCount": 0
+    },
+    {
+      "url": "https://crawlee.dev/blog/authors",
+      "lastmod": null,
+      "changefreq": "weekly",
+      "priority": 0.5,
+      "sitemapUrl": "https://crawlee.dev/sitemap.xml",
+      "sitemapDepth": 0,
+      "inputUrl": "https://crawlee.dev",
+      "host": "crawlee.dev",
+      "alternates": [],
+      "imageCount": 0
+    }
+  ],
+  "note": "Trimmed from a real public Apify run for illustration. Re-run the Actor for fresh data."
+}

@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Ada",
+      "meta": {
+        "city": "London"
+      },
+      "score": 9
+    },
+    {
+      "id": 2,
+      "name": "Ada",
+      "meta": {
+        "city": "London"
+      },
+      "score": 9
+    },
+    {
+      "id": 3,
+      "name": "Bob",
+      "meta": {
+        "city": "Berlin"
+      },
+      "score": 4
+    },
+    {
+      "id": 4,
+      "name": "Cara",
+      "meta": {
+        "city": "Paris"
+      },
+      "score": 7
+    }
+  ],
+  "filters": [
+    {
+      "field": "score",
+      "op": "gte",
+      "value": 5
+    }
+  ],
+  "dedupeBy": [
+    "name",
+    "meta.city"
+  ],
+  "flatten": true,
+  "rename": {
+    "meta.city": "city"
+  },
+  "sortBy": "score",
+  "exportCsv": true,
+  "sortDir": "desc"
+}

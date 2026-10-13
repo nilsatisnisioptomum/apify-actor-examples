@@ -1,0 +1,16 @@
+{
+  "input": {
+    "startUrls": [
+      {
+        "url": "https://crawlee.dev"
+      }
+    ],
+    "maxPages": 3,
+    "outputMode": "all"
+  },
+  "status": "SUCCEEDED",
+  "itemCount": 0,
+  "usageTotalUsd": 0.0010826326997048325,
+  "itemsSample": [],
+  "note": "Trimmed from a real public Apify run for illustration. Re-run the Actor for fresh data."
+}
