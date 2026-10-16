@@ -5,11 +5,11 @@ Use these snippets to call Actors from **Node.js**, **Python**, or the **REST AP
 
 
 ## Actors with full examples
-- **[Bulk File Downloader](./bulk-file-downloader/)** → https://apify.com/chris_elder/bulk-file-downloader — Download many file/image URLs into Key-Value store (optional ZIP). Paying users: priority example.
-- **[Dataset Transformer](./dataset-transformer/)** → https://apify.com/chris_elder/dataset-transformer — Filter, dedupe, flatten, rename, sort tabular JSON; optional CSV export.
-- **[Sitemap URL Extractor](./sitemap-url-extractor/)** → https://apify.com/chris_elder/sitemap-url-extractor — Extract every URL from a site’s XML sitemaps (robots.txt auto-discovery).
-- **[HTTP Request Sender](./http-request-sender/)** → https://apify.com/chris_elder/http-request-sender — Send single or bulk HTTP requests (GET/POST/…) with structured responses.
-- **[Broken Link Checker](./broken-link-checker/)** → https://apify.com/chris_elder/broken-link-checker — Crawl pages and report broken, redirected, and blocked links.
+- **[Bulk File Downloader](./bulk-file-downloader/)** → https://apify.com/chris_elder/bulk-file-downloader: Download many file/image URLs into Key-Value store (optional ZIP). Paying users: priority example.
+- **[Dataset Transformer](./dataset-transformer/)** → https://apify.com/chris_elder/dataset-transformer: Filter, dedupe, flatten, rename, sort tabular JSON; optional CSV export.
+- **[Sitemap URL Extractor](./sitemap-url-extractor/)** → https://apify.com/chris_elder/sitemap-url-extractor: Extract every URL from a site’s XML sitemaps (robots.txt auto-discovery).
+- **[HTTP Request Sender](./http-request-sender/)** → https://apify.com/chris_elder/http-request-sender: Send single or bulk HTTP requests (GET/POST/…) with structured responses.
+- **[Broken Link Checker](./broken-link-checker/)** → https://apify.com/chris_elder/broken-link-checker: Crawl pages and report broken, redirected, and blocked links.
 
 ## All live Actors on the store
 - https://apify.com/chris_elder/bulk-file-downloader
