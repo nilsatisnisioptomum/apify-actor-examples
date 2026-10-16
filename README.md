@@ -2,7 +2,6 @@
 Free, runnable examples for [Chris Elder’s Apify Store Actors](https://apify.com/chris_elder).
 Use these snippets to call Actors from **Node.js**, **Python**, or the **REST API**.
 
-> **Don't want to run it yourself?** [Done-for-you web scraper](https://sme-free-tools.pages.dev/done-for-you-scraper/): fixed £149 / $179, clean CSV in 48h. A product of GPT Shop Ltd.
 
 
 ## Actors with full examples
