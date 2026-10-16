@@ -46,3 +46,8 @@ MIT — see [LICENSE](./LICENSE).
 ## AI-assisted development
 
 Parts of this repository were prepared with AI assistance; all examples were checked against live Actor inputs/outputs for Chris Elder’s Store listings.
+
+
+## Workday + Greenhouse jobs
+
+[`multi-ats-jobs-api/`](multi-ats-jobs-api/): a tested Python recipe and real sample CSV (Workday + Greenhouse → one CSV).

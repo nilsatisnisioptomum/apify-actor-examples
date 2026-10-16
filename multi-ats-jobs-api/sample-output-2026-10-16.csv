@@ -1,0 +1,41 @@
+ats,company,title,location,isRemote,department,postedAt,postedText,applyUrl
+workday,nvidia,Senior Interconnect Product Data Engineer,"Israel, Yokneam",False,,,Posted 30+ Days Ago,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Senior-Interconnect-Product-Data-Engineer_JR2021975
+workday,nvidia,Senior Synthetic Data Engineer - Autonomous Driving,,False,,2026-10-09,Posted 7 Days Ago,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Synthetic-Data-Engineer---Autonomous-Driving_JR2023850-1
+workday,nvidia,SAP MM/PP Master Data Engineer - Enterprise Data Management,,False,,2026-09-29,Posted 17 Days Ago,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Gurugram/SAP-MM-PP-Master-Data-Engineer---Enterprise-Data-Management_JR2026497
+workday,nvidia,Principal Data Scientist - Cloud Gaming and AI,,False,,,Posted 30+ Days Ago,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Data-Scientist---Cloud-Gaming-and-AI_JR2019886
+workday,nvidia,"Applied Machine Learning Engineer, AI for VLSI Design - New College Grad 2026","US, CA, Santa Clara",False,,2026-09-29,Posted 17 Days Ago,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Machine-Learning-Engineer--AI-for-VLSI-Design---New-College-Grad-2026_JR2026576
+workday,nvidia,"Senior Machine Learning Engineer, Accelerated Apache Spark","US, CA, Santa Clara",False,,,Posted 30+ Days Ago,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Machine-Learning-Engineer--Accelerated-Apache-Spark_JR2024455
+greenhouse,stripe,Data Scientist,N/A,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=5601879
+greenhouse,stripe,Data Scientist,Toronto,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=5895430
+greenhouse,stripe,Data Scientist,"Seattle, WA",False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8222149
+greenhouse,stripe,"Data Scientist, Fraud",Toronto,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8113100
+greenhouse,stripe,"Engineering Manager, Machine Learning - Credit Risk",N/A,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8205280
+greenhouse,stripe,"Engineering Manager, Machine Learning - Fraud Detection",N/A,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8069506
+greenhouse,stripe,Machine Learning Engineer,Toronto,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8014859
+greenhouse,stripe,"Machine Learning Engineer, Growth Platform",San Francisco,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8224915
+greenhouse,stripe,"Machine Learning Engineer, Link",New York City ,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8197886
+greenhouse,stripe,"Machine Learning Engineer, Radar",Seattle,False,,2026-10-14T14:38:55-04:00,,https://stripe.com/jobs/search?gh_jid=8243617
+greenhouse,stripe,"PhD Data Scientist, Intern",Toronto,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8194285
+greenhouse,stripe,"PhD Data Scientist, Intern","New York, Seattle, South San Francisco HQ",False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8194283
+greenhouse,stripe,"Staff Machine Learning Engineer, Financial Connections",New York,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8148653
+greenhouse,stripe,"Staff Machine Learning Engineer, Radar",N/A,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8243615
+greenhouse,stripe,"Staff Software Engineer, Machine Learning Platform",Toronto,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=7712852
+greenhouse,stripe,"Staff Software Engineer, Machine Learning Platform","San Francisco, Seattle",False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=7939868
+greenhouse,stripe,"Staff Software Engineer, Risk Data Engineering",Toronto,False,,2026-10-07T19:02:27-04:00,,https://stripe.com/jobs/search?gh_jid=8112043
+greenhouse,airbnb,"Data Scientist - Algorithms, Community Support",Remote - USA,True,,2026-10-02T17:23:05-04:00,,https://careers.airbnb.com/positions/8031901?gh_jid=8031901
+greenhouse,airbnb,"Machine Learning Engineer, Assistance Engineering",China,False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/7716341?gh_jid=7716341
+greenhouse,airbnb,Principal Machine Learning Engineer- LLM Fine-tuning and Optimization,United States,False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/7955579?gh_jid=7955579
+greenhouse,airbnb,"Senior Machine Learning Engineer, Assistance Engineering",China,False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/7975743?gh_jid=7975743
+greenhouse,airbnb,"Senior Machine Learning Engineer, Payments",Remote-USA,True,,2026-10-02T11:54:30-04:00,,https://careers.airbnb.com/positions/7755758?gh_jid=7755758
+greenhouse,airbnb,"Senior Machine Learning Engineer, Query Intelligence",United States,False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/8065789?gh_jid=8065789
+greenhouse,airbnb,"Senior Machine Learning Engineer, Trust","San Francisco, CA",False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/8130355?gh_jid=8130355
+greenhouse,airbnb,"Senior Machine Learning Engineer, Trust","San Francisco, CA",False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/8232153?gh_jid=8232153
+greenhouse,airbnb,"Senior Staff Data Engineer, Foundational Data",United States,False,,2026-10-07T14:30:30-04:00,,https://careers.airbnb.com/positions/8224032?gh_jid=8224032
+greenhouse,airbnb,"Senior Staff Data Scientist, Guest & Host Marketplace AI",Remote,True,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/7107054?gh_jid=7107054
+greenhouse,airbnb,"Senior Staff Machine Learning Engineer, Data & Eval",United States,False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/6757302?gh_jid=6757302
+greenhouse,airbnb,"Senior Staff Machine Learning Engineer, Growth Platform Engineering",Remote - USA,True,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/7747259?gh_jid=7747259
+greenhouse,airbnb,"Senior Staff Machine Learning Engineer, Post Training",Remote - USA,True,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/7858738?gh_jid=7858738
+greenhouse,airbnb,"Senior Staff Machine Learning Engineer, Trust",Remote - USA,True,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/7592146?gh_jid=7592146
+greenhouse,airbnb,"Staff Data Scientist, Guest & Host",United States,False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/7705262?gh_jid=7705262
+greenhouse,airbnb,"Staff Machine Learning Engineer, Assistance Engineering","San Francisco, CA",False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/8024316?gh_jid=8024316
+greenhouse,airbnb,"Staff Machine Learning Engineer, Traffic Intelligence",United States,False,,2026-09-29T20:00:54-04:00,,https://careers.airbnb.com/positions/8129371?gh_jid=8129371
