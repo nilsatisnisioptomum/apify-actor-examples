@@ -1,6 +1,6 @@
 # Bulk File Downloader
 
-Download many file/image URLs into Key-Value store (optional ZIP). Paying users — priority example.
+Download many file/image URLs into Key-Value store (optional ZIP). Paying users: priority example.
 
 **Live Actor:** https://apify.com/chris_elder/bulk-file-downloader
 
