@@ -28,3 +28,10 @@ pip install apify-client && python run.py
 ```
 
 Store profile: https://apify.com/chris_elder
+
+## Recipes (tested 2026-10-16)
+
+- [`recipes/download_images_to_zip.py`](recipes/download_images_to_zip.py) – text file of URLs → `files.zip` on your disk (Python, works with apify-client v1 and v2).
+- [`recipes/download_from_scraper_dataset.js`](recipes/download_from_scraper_dataset.js) – every product image from a previous scraper run's dataset → one ZIP named by SKU (Node).
+
+Tip: pass the scraper run's **Dataset ID** (`defaultDatasetId`), not the run ID.
