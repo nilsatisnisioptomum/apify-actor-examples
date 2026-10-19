@@ -67,6 +67,21 @@ Choose an appropriate USD amount. The recipe passes it as Apify's `maxTotalCharg
 
 The recipe starts at most one run, waits for success with bounded requests and backoff, then downloads `OUTPUT.zip` with an Authorization header and saves it on your computer. It refuses an existing destination **before** starting a paid run, never overwrites it, rejects empty/non-ZIP responses and removes incomplete downloads. The local download limit is 512 MiB; use Console for larger archives. ZIP detection checks the file signature, not every archived file's integrity.
 
+### Recover a completed run without starting another
+
+If the downloader run succeeded but saving its ZIP failed, recover that **existing downloader Run ID** instead of repeating `--run`:
+
+```sh
+node bulk-file-downloader/recipes/download_from_scraper_dataset.js --resume-run YOUR_DOWNLOADER_RUN_ID \
+  --output recovered-images.zip
+```
+
+Resume uses `APIFY_TOKEN` from the same user account that started the run. It makes only authenticated GET requests: verify the [token account](https://docs.apify.com/api/v2/users-me-get), [existing run](https://docs.apify.com/api/v2/actor-run-get), [downloader Actor](https://docs.apify.com/api/v2/actor-get), and stored `INPUT` before downloading `OUTPUT.zip`. It never starts, restarts or resurrects an Actor, so it does not trigger a new Actor-start request or charge. Existing account storage/data-transfer usage and limits may still apply.
+
+This narrow recovery path accepts only `SUCCEEDED` runs whose stored input matches this recipe's explicit dataset workflow: dataset/field names, image-only mode, ZIP enabled, `maxFiles` from 1–5,000 and the default `OUTPUT.zip` name. Shared/organization runs with a different user ID, metamorphed runs, other input modes and custom ZIP names are unsupported. Do not combine `--resume-run` with a Dataset ID, `--run`, a charge cap or input-field flags; only `--output` is optional. New runs also accept `--max-files` from 1–5,000.
+
+A running/failed run, unavailable account access, or expired/deleted run, `INPUT` or ZIP stops with an error; there is no fallback to a paid run. Inspect Console before taking further action. Existing output files/symlinks are preserved, downloads stay limited to 512 MiB, and ZIP validation checks its signature rather than every member's integrity.
+
 If an API request or run fails, inspect the **existing run** in Console before retrying. The recipe never automatically retries a billable start request; a lost response can leave a run active even when no run ID was returned.
 
 | Symptom | Check |
