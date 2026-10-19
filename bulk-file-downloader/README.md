@@ -86,10 +86,12 @@ If an API request or run fails, inspect the **existing run** in Console before r
 | `recipes/prepare_local_csv.js` | Node.js 20+: offline CSV preview and explicit local Actor input JSON saving |
 | `recipes/csv-core.js` | Pure local CSV parsing, URL checks and image-job planning; no network or Actor execution |
 | `recipes/download_from_scraper_dataset.js` | Node.js 20+: safe preview, deliberate capped run and authenticated ZIP saving |
-| `recipes/download_images_to_zip.py` | Python URL-list recipe; starts a billable run immediately and writes `files.zip` |
+| `recipes/download_images_to_zip.py` | Python URL-list recipe; refuses an existing `files.zip` before starting a billable run |
 | `run.js` | Basic Node.js `apify-client` API snippet |
 | `run.py` | Basic Python `apify-client` API snippet |
 | `run.sh` | Basic REST API snippet using curl and jq |
+
+The Python URL-list recipe also starts a billable run when executed; it has no preview or spending cap. It reserves `files.zip` before contacting Apify and refuses existing files or symlinks. A failed start or download removes only the newly created partial file. ZIP downloads are streamed with a 512 MiB limit and a 75-second network-operation timeout; validation checks the ZIP signature, not every archive member. Inspect the existing run in Console before retrying a failure, because a run may already have incurred charges.
 
 The basic API snippets start billable runs immediately when executed; they do not provide this Node recipe's explicit run/cap gate or local ZIP-saving workflow. Review their input and current pricing before use. Their existing code is unchanged by this recipe repair.
 
@@ -99,6 +101,7 @@ From the repository root:
 
 ```sh
 node --test bulk-file-downloader/test/*.test.mjs
+python3 -m unittest discover -s bulk-file-downloader/test -p 'test_python_download.py'
 ```
 
 Tests use fake API responses and temporary files. They do not start Actors, use real account tokens or make network requests. No dependency install is required.
