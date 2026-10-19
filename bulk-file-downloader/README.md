@@ -6,6 +6,8 @@ Download public file or image URLs into run storage, with an optional ZIP. Reuse
 
 Apify runs are billable. Review the [current pricing](https://apify.com/chris_elder/bulk-file-downloader/pricing), including the Actor-start charge, before starting. An unsuccessful download does not incur a successful-download event, but a failed run is not necessarily free. A free Apify account does not mean unlimited free runs.
 
+**Console workaround for Actor 0.0.24:** When supplying `datasetId`, `csvUrl` or `pageUrls` in Apify Console, clear unchanged demo entries in **File URLs**. In JSON view, use `"urls": []` if you intend no direct file URLs; retain any explicit URLs you genuinely want. Demo entries can consume `maxFiles`, and successful demo downloads trigger download events. The dataset API recipe in this repo already omits `urls`; Console prefills are not added to its API input.
+
 ## Prepare input from a local image CSV
 
 If your image links are in a spreadsheet on your computer, there is no need to publish that CSV or upload it for preparation. Export it as **UTF-8 CSV**, with a header row and one complete HTTP/HTTPS image URL per cell. This Node.js 20+ recipe uses no packages, token, API or network access.
