@@ -1,0 +1,5 @@
+name,primaryEmail,primaryEmailStatus,primaryEmailIsRole,phone,phoneType,invalidPhones,website,websiteAlive,leadQuality,leadQualityLabel,issues,duplicatesMerged
+Apify,hello@apify.com,valid-mx,True,,,,https://apify.com/,True,65,medium,email-role-address-only; missing-phone; missing-address,1
+GOV.UK,info@gov.uk,no-mx-a-record,True,+442079460000,FIXED_LINE,,https://www.gov.uk/,True,55,medium,no-usable-email; email-domain-a-record-only; email-repaired; missing-address,0
+Throwaway Ltd,,,,,,07700 900123,,,5,low,no-usable-email; email-disposable; phone-invalid; missing-website; missing-address; no-contact-method,0
+No Mail Co,,,,,,,https://no-mx-domain-xyz123.com/,False,5,low,no-usable-email; email-domain-no-mx; missing-phone; website-unreachable; missing-address; no-contact-method,0

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "crawlee-dev-js-docs-guides-avoid-blocking.md",
+    "url": "https://crawlee.dev/js/docs/guides/avoid-blocking",
+    "title": "Avoid getting blocked | Crawlee for JavaScript · Build reliable crawlers. Fast.",
+    "chars": 5143
+  },
+  {
+    "file": "crawlee-dev-js-docs-guides-cheerio-crawler-guide.md",
+    "url": "https://crawlee.dev/js/docs/guides/cheerio-crawler-guide",
+    "title": "CheerioCrawler guide | Crawlee for JavaScript · Build reliable crawlers. Fast.",
+    "chars": 4762
+  },
+  {
+    "file": "crawlee-dev-js-docs-guides-custom-http-client.md",
+    "url": "https://crawlee.dev/js/docs/guides/custom-http-client",
+    "title": "Using a custom HTTP client (Experimental) | Crawlee for JavaScript · Build reliable crawlers. Fast.",
+    "chars": 5481
+  },
+  {
+    "file": "crawlee-dev-js-docs-guides-configuration.md",
+    "url": "https://crawlee.dev/js/docs/guides/configuration",
+    "title": "Configuration | Crawlee for JavaScript · Build reliable crawlers. Fast.",
+    "chars": 11682
+  }
+]

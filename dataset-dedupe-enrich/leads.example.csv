@@ -1,0 +1,6 @@
+company,email,phone,website
+Apify,hello@apify.com,,https://apify.com
+Apify,HELLO@apify.com ,,https://apify.com/
+Throwaway Ltd,test123@mailinator.com,07700 900123,
+No Mail Co,info@no-mx-domain-xyz123.com,,https://no-mx-domain-xyz123.com
+GOV.UK,mailto:info@gov.uk; sales @gov.uk,020 7946 0000,https://www.gov.uk

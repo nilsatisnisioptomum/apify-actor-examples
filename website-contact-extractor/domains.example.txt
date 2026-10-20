@@ -1,0 +1,5 @@
+# sample domains (public organisation contact pages)
+apify.com
+w3.org
+opensource.org
+this-domain-does-not-exist-xyz123.com

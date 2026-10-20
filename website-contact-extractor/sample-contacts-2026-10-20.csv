@@ -1,0 +1,5 @@
+website,emails,email_checks,phones,linkedin,twitter,facebook,instagram,youtube,tiktok,github,pages_checked,error
+https://apify.com,hello@apify.com,hello@apify.com=valid-mx (role),,https://linkedin.com/company/apify,https://x.com/apify,,,,https://tiktok.com/@apifytech,https://github.com/apify,4,
+https://w3.org,giving@w3.org; public-pwe@w3.org,giving@w3.org=valid-mx; public-pwe@w3.org=valid-mx,,,,,,,,https://github.com/w3c,4,
+https://opensource.org,osi@social.opensource.org,osi@social.opensource.org=no-mx-a-record,,https://linkedin.com/company/open-source-initiative-osi-,https://twitter.com/OpenSourceOrg,,,,,,1,
+https://this-domain-does-not-exist-xyz123.com,,,,,,,,,,,0,Site unreachable or not HTML (not charged).

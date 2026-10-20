@@ -13,6 +13,9 @@ Use these snippets to call Actors from **Node.js**, **Python**, or the **REST AP
 - **[Sitemap URL Extractor](./sitemap-url-extractor/)** → https://apify.com/chris_elder/sitemap-url-extractor: Extract every URL from a site’s XML sitemaps (robots.txt auto-discovery).
 - **[HTTP Request Sender](./http-request-sender/)** → https://apify.com/chris_elder/http-request-sender: Send single or bulk HTTP requests (GET/POST/…) with structured responses.
 - **[Broken Link Checker](./broken-link-checker/)** → https://apify.com/chris_elder/broken-link-checker: Crawl pages and report broken, redirected, and blocked links.
+- **[URL to Markdown](./html-to-markdown/)** → https://apify.com/chris_elder/html-to-markdown: Website or sitemap → one Markdown file per page for LLM/RAG (chains Sitemap URL Extractor).
+- **[Contact Details Scraper](./website-contact-extractor/)** → https://apify.com/chris_elder/website-contact-extractor: Domain list → contacts CSV (public emails, phones, social links), optional email validation.
+- **[Bulk Email & Phone Validator](./dataset-dedupe-enrich/)** → https://apify.com/chris_elder/dataset-dedupe-enrich: Clean a lead CSV: dedupe, email syntax + MX, disposable/role flags, E.164 phones, quality score.
 
 ## All live Actors on the store
 - https://apify.com/chris_elder/bulk-file-downloader
@@ -28,6 +31,15 @@ Use these snippets to call Actors from **Node.js**, **Python**, or the **REST AP
 - https://apify.com/chris_elder/image-to-text-ocr
 - https://apify.com/chris_elder/itunes-app-store-search
 - https://apify.com/chris_elder/multi-ats-jobs-api
+- https://apify.com/chris_elder/html-to-markdown
+- https://apify.com/chris_elder/website-contact-extractor
+- https://apify.com/chris_elder/dataset-dedupe-enrich
+- https://apify.com/chris_elder/google-sheets-sync
+- https://apify.com/chris_elder/google-maps-lead-cleaner
+- https://apify.com/chris_elder/app-reviews-scraper
+- https://apify.com/chris_elder/open-graph-meta-checker
+- https://apify.com/chris_elder/ssl-domain-expiry-checker
+- https://apify.com/chris_elder/hacker-news-search
 
 ## Requirements
 
